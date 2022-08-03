@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "3666593735",
+    "project_id": "banco4pay",
+    "storage_bucket": "banco4pay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3666593735:android:737543286d6262a8b83be2",
+        "android_client_info": {
+          "package_name": "com.example.appbanco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3666593735-1semeent4ft0nada3pjm8ed0k94ptio2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appbanco",
+            "certificate_hash": "9e784962590cf15b32c9c54614d3db0e28d34ed5"
+          }
+        },
+        {
+          "client_id": "3666593735-31a93gslkr846r2mf93m9h93109bqefk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkjcEPY9eD1eN4SKWSjC2XfkrJ9vjo2f0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3666593735-31a93gslkr846r2mf93m9h93109bqefk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

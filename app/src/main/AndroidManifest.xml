@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appbanco">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Appbanco"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.Crypto.CryptoNext"
+            android:exported="false" />
+        <activity
+            android:name=".view.Crypto.Crypto"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.QRCode.CriarPixQrCode"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.QRCode.PixQrCode"
+            android:exported="false" />
+        <activity
+            android:name=".view.Home.Sobre"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pagamento.ReciboBoleto"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pagamento.ConfirmarPagamento"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pagamento.PagarBoleto"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pagamento.Pagamento"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.Chave_Pix.RegistrarChavePix"
+            android:exported="false" />
+        <activity
+            android:name=".view.Dados_Usuario.AtualizarDadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.Dados_Usuario.MeusDadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ChatBot.ChatBot"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Cartoes.CartaoFatura"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Cartoes.CartaoCriarSenha"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Recarga.RecargaReciboActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixCobrar.PagarCobrancaRecibo"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixCobrar.PagarCobranca"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixCobrar.PixCobrarFinal"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixCobrar.PixCobrarDestino"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixCobrar.PixCobrar"
+            android:exported="false" />
+        <activity
+            android:name=".view.Home.Notificacoes"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.Pix"
+            android:exported="false" />
+        <activity
+            android:name=".view.Home.Seguros"
+            android:exported="false" />
+        <activity
+            android:name=".view.Seguros.SegurosAtivos"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Deposito.DepositoReciboActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Deposito.DepositofFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.Login_Cadastro.Login"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.Chave_Pix.ChaveCriada"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.Chave_Pix.TipoChave"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Cartoes.CartaoCriado"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixTransferir.PixTransfSucesso"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixTransferir.ConfirmacaoPix"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixTransferir.PixTransfFinal"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Transferencia.Transferencia"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixTransferir.PixTransfDestino"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Pix.PixTransferir.PixTransf"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Cartoes.GerarCartoes"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Cartoes.Cartoes"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Recarga.RecargaValorCartao"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Recarga.RecargaValorConta"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Recarga.RecargaPagamento"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Recarga.RecargaOperadora"
+            android:exported="false" />
+        <activity
+            android:name=".view.Pagamentos.Recarga.RecargaInicio"
+            android:exported="false" />
+        <activity
+            android:name=".view.Home.Home"
+            android:exported="false" />
+        <activity
+            android:name=".view.Login_Cadastro.EsqueciSenha"
+            android:exported="false" />
+        <activity
+            android:name=".view.Login_Cadastro.CadastroProximo"
+            android:exported="false" />
+        <activity
+            android:name=".view.Login_Cadastro.Cadastro"
+            android:exported="false" /> <!-- SE MUDAR A TELA SPLASH DAQUI, MOVA O TEMA TAMBÉM -->
+        <activity
+            android:name=".view.Home.Splash"
+            android:exported="true"
+            android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

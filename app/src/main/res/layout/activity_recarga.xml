@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_alternativo"
+        tools:context=".view.Pagamentos.Recarga.RecargaInicio">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/preto"
+            android:fontFamily="@font/nunito_regular"
+            android:paddingVertical="8dp"
+            android:text="Recarga"
+            android:textAlignment="center"
+            android:textColor="@color/rosa"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivArrowBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvTitulo"
+            app:layout_constraintTop_toTopOf="@id/tvTitulo"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tvQualRecarga"
+            android:layout_width="279dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Qual número você quer recarregar?"
+            android:textAlignment="center"
+            android:textColor="@color/preto"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitulo" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Telefone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:hint="(DDD) + Número"
+            android:textColorHint="@color/preto"
+            app:boxStrokeColor="@color/preto"
+            app:hintTextColor="@color/preto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitulo"
+            app:startIconDrawable="@drawable/ic_phone"
+            app:startIconTint="@color/preto">
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:id="@+id/edtTelefone"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mask="(__) _____-____"
+                app:maskCharacter="_"
+                app:maskStyle="completable" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/tvValRecarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Insira o valor da Recarga"
+            android:textColor="@color/preto"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Telefone" />
+
+        <com.blackcat.currencyedittext.CurrencyEditText
+            android:id="@+id/edtValRecarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:fontFamily="@font/nunito_regular"
+            android:inputType="number"
+            android:textColor="@color/preto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvValRecarga" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/preto"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtValRecarga"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnProximo"
+            android:layout_width="280dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/btnlogin"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Próximo"
+            android:textAllCaps="false"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
