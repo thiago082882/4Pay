@@ -1,6 +1,6 @@
 
 
-# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://www.citypng.com/public/uploads/small/115962957453szs05gvmpzt3wwwlmkf6y7dbz3lhzjavhyjag0okzfccwcdrjtjdnaryodaexkis7ubr7ojdgikgvdg9reszuszrmcpqwb6bmex.png"> 4Pay
+# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://media.glassdoor.com/sqll/2609019/foursys-brasil-squarelogo-1559625206764.png"> 4Pay
 
 <div align="center">
 </div>
@@ -47,8 +47,7 @@
 
 ## 📖 Sobre
 
-A proposta do projeto foi criar um clone do aplicativo prime Video, onde nele foi criado o JSON de filmes de várias categoria...
-
+O projeto foi realizado em grupo e tem como objetivo desenvolver um aplicativo bancário que oferece funcionalidades como cadastro de usuários, edição de perfil, adição de telefone, registro de depósitos, visualização de outros usuários, exibição de datas de transações, confirmação de remetentes e destinatários, e uma central de notificações em tempo real. Além disso, há a possibilidade de recuperação da conta enviando um e-mail para o endereço cadastrado.
 
 Este projeto foi desenvolvido durante minha jornada de estudos, com intuito de aprimorar os conhecimentos em desenvolvimento de android nativo.
 
@@ -90,7 +89,7 @@ O projeto foi desenvolvido utilizando as seguintes bibliotecas:
 ---
 
 ## 🚀 Video
-https://www.linkedin.com/posts/thiagocostadejesus_java-activity-7026251061891850240-jt5w?utm_source=share&utm_medium=member_desktop
+https://www.linkedin.com/posts/thiagocostadejesus_android-designthinking-fourcamp22-activity-6949891899092561920-2M8d?utm_source=share&utm_medium=member_desktop
 
 ---
 
