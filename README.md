@@ -1,92 +1,97 @@
-# 4Pay
+
+
+# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://www.citypng.com/public/uploads/small/115962957453szs05gvmpzt3wwwlmkf6y7dbz3lhzjavhyjag0okzfccwcdrjtjdnaryodaexkis7ubr7ojdgikgvdg9reszuszrmcpqwb6bmex.png"> 4Pay
+
+<div align="center">
+</div>
+
+## 📋 Índice
+
+- [Preview](#-Preview)
+- [Sobre](#-Sobre)
+- [Tecnologias utilizadas](#-Ferramentas-utilizadas)
+- [Biliotecas utilizadas](#-Biliotecas-utilizadas)
+
+---
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/93166095/217368872-16a045e3-8139-465c-8ccb-e3a8db211398.gif" width="300">
+
+
+ </div>
+
+## 🖥 Preview
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/93166095/217369155-9f24e4a0-ef9e-4185-b468-abf45dce894e.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369133-9e97b0e8-a077-4126-96f6-4d048c63f80f.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369123-bbfd8813-345c-4be5-83d9-243ebfa2a716.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369130-1c9d59d6-3456-4f1a-add7-248964535a46.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369145-41dfec1d-2c7a-45a7-8330-a47f5da04775.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369129-a614564f-ff11-427f-bb88-0fdbad012c95.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369158-2b3c0cdf-78ae-4036-8124-708ae9aba148.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369141-35197e72-1095-4500-ab72-64eaa6e83381.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369126-55714ed5-0b1e-4591-8843-1bb89252f74a.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369152-b7cb7a7f-93cc-4afb-a153-2f93f2c1df22.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369147-d44ff926-cc25-416f-8b99-0fcb033d10c3.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369125-2628e38d-00ec-44cd-9d5a-9b345fc94c22.png" width="200">
+<img src="https://user-images.githubusercontent.com/93166095/217369140-95b7e03b-8526-458b-8966-c1dbdba4b786.png" width="200">
 
 
 
-## Getting started
+</div>
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+---
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## 📖 Sobre
 
-## Add your files
+A proposta do projeto foi criar um clone do aplicativo prime Video, onde nele foi criado o JSON de filmes de várias categoria...
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-```
-cd existing_repo
-git remote add origin https://gitlab.fourcamp.com/fourcamp22/android/grupo-3/4pay/4pay.git
-git branch -M main
-git push -uf origin main
-```
+Este projeto foi desenvolvido durante minha jornada de estudos, com intuito de aprimorar os conhecimentos em desenvolvimento de android nativo.
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.fourcamp.com/fourcamp22/android/grupo-3/4pay/4pay/-/settings/integrations)
+## 🚀 Ferramentas utilizadas
 
-## Collaborate with your team
+O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- Android Studio
+- Java
+- XML
+- Intents
+- Bundle
+- Navegação e dados entre Activities
+- CardView
+- Lógica de Programação
+- Pogramação Orientada a Objetos
+- RecyclerView
+- Banco de Dados
+- Firebase (Realtime e Storage)
+- Constraintlayout, framelayout e linearlayout
+- JSON
+- Binding
 
-## Test and Deploy
 
-Use the built-in continuous integration in GitLab.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+---
 
-***
+## 🚀 Biliotecas utilizadas
 
-# Editing this README
+O projeto foi desenvolvido utilizando as seguintes bibliotecas:
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+- https://github.com/ReactiveX/RxAndroid/releases (RxJava)
+- https://square.github.io/retrofit/ 
+- https://github.com/bumptech/glide (Carregamento mais leve das imagens)
+- https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=pt-br
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
-Choose a self-explaining name for your project.
+---
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## 🚀 Video
+https://www.linkedin.com/posts/thiagocostadejesus_java-activity-7026251061891850240-jt5w?utm_source=share&utm_medium=member_desktop
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+---
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Desenvolvido por Thiago Costa de Jesus.
