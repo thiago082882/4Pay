@@ -78,12 +78,13 @@ O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 
 ## 🚀 Biliotecas utilizadas
 
-O projeto foi desenvolvido utilizando as seguintes bibliotecas:
+O projeto foi desenvolvido utilizando algumas das seguintes bibliotecas:
 
-- https://github.com/ReactiveX/RxAndroid/releases (RxJava)
-- https://square.github.io/retrofit/ 
-- https://github.com/bumptech/glide (Carregamento mais leve das imagens)
+- https://github.com/dm77/barcodescanner
+-https://github.com/tommybuonomo/dotsindicator
+- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-dialogflow/2.1.0
 - https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=pt-br
+- https://github.com/square/picasso
 
 
 ---
